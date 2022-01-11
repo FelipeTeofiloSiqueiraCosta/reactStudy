@@ -1,10 +1,12 @@
 import './App.css';
-
+import Router from './routes';
+import Global from './styles/global';
 function App() {
   return (
-    <div className="App">
-        <h1>Projeto repos</h1>
-    </div>
+    <>
+        <Global/>
+        <Router/>
+    </>
   );
 }
 
