@@ -60,7 +60,6 @@ export default function Home(){
 
                     {loading ? <FiLoader color='#fff' size={14} className='spin'/>
                     : <FaPlus color="#FFF" size={14} />
-
                     }
 
                      Adicionar

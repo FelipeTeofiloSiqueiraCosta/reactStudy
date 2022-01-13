@@ -13,7 +13,32 @@ export const Container = styled.div`
     transform: translateX(-50%);
     margin: 20px auto;
 `;
+export const FilterList = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
 
+    button{
+        padding: 4px;
+        margin: 2px 3px;
+        border-radius: 5px;
+        background-color: transparent;
+        transition: all.3s;
+        width: 100px;
+        flex-wrap: wrap;
+        border: none;
+        &:nth-child(${props=> props.active+1}){
+            background-color: rgb(3, 148, 208);
+            color: #fff;
+        }
+    }
+    
+    
+
+    
+`;
 export const Owner = styled.div`
     
     
